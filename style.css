@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+    background-color: #f0f2f5;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+}
+
+.card {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    width: 320px;
+    text-align: center;
+}
+
+h1 { font-size: 1.4rem; color: #333; margin-bottom: 20px; }
+
+a, button {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 12px;
+    background-color: #2e7d32;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+}
+input { width: 90%; padding: 10px; margin-bottom: 10px; }
